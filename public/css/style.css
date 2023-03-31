@@ -1,0 +1,14 @@
+.card-body:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+.card-body{
+    font-size: 20px;
+    font-weight: bold;
+    color:darkred;
+    text-align: center;
+
+}
+.logo{
+    width: 9em;
+}

@@ -12,7 +12,12 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+use App\Http\Controllers\PublicController;
+
 
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get("/aboutus",[PublicController::class,'aboutus'])->name('aboutus');
+//Foods Lists
+require_once "foods.php";
